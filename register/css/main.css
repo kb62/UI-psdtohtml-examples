@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-color: #3e4d59; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; }
+  .container .uikit {
+    width: 450px;
+    height: 714px; }
+    .container .uikit .card {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .container .uikit .card img {
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        padding: 40px 22px; }
+    .container .uikit .register {
+      background-color: #101f2e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .container .uikit .register h6 {
+        margin-bottom: 16px;
+        margin-top: 16px;
+        color: white; }
+      .container .uikit .register .form-group {
+        display: flex;
+        align-items: center; }
+        .container .uikit .register .form-group input:focus {
+          text-indent: 50px; }
+          .container .uikit .register .form-group input:focus::placeholder {
+            color: transparent; }
+        .container .uikit .register .form-group input::placeholder {
+          color: #d7d9dc;
+          padding-left: 50px; }
+        .container .uikit .register .form-group i {
+          position: absolute;
+          margin: 14px 20px; }
+        .container .uikit .register .form-group #accept {
+          outline: 1px solid #f7d31b;
+          cursor: pointer;
+          width: 15px;
+          height: 15px;
+          cursor: pointer;
+          background: transparent;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          position: relative;
+          left: -1px;
+          top: -1px;
+          margin-right: 10px; }
+          .container .uikit .register .form-group #accept + label {
+            cursor: pointer;
+            color: #f7d31b;
+            font-weight: 400; }
+        .container .uikit .register .form-group #accept:checked {
+          background: #f7d31b;
+          outline: none; }
+      .container .uikit .register .button {
+        background-color: #f7d31b;
+        color: white;
+        border: 1px solid #f7d31b;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px; }
+        .container .uikit .register .button:hover {
+          color: #101f2e;
+          font-weight: 600; }
+
+/*# sourceMappingURL=main.css.map */
