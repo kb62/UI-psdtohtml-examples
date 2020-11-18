@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-color: #3e4d59; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50%; }
+  .container .profile-photo {
+    width: 454px;
+    height: 156px;
+    background-color: white;
+    display: flex;
+    align-items: center; }
+    .container .profile-photo img {
+      width: 106px;
+      height: 106px;
+      border-radius: 50%;
+      margin: 33px; }
+    .container .profile-photo .profile-name {
+      padding: 63px 160px 63px 20px; }
+      .container .profile-photo .profile-name h5 {
+        color: yellow;
+        font-size: 23px; }
+      .container .profile-photo .profile-name p {
+        color: #c1c5c9;
+        font-size: 17px;
+        font-weight: 300; }
+  .container .list {
+    background-color: #101f2e;
+    width: 454px;
+    height: auto; }
+    .container .list ul li {
+      border-top: 1px solid #c1c5c9;
+      padding: 16px 1px 16px 28px; }
+      .container .list ul li a {
+        color: #c1c5c9;
+        font-size: 20px;
+        text-decoration: none; }
+      .container .list ul li:hover {
+        background-color: #505760;
+        cursor: pointer;
+        border: none;
+        border-top: 1px solid #f7d31b; }
+        .container .list ul li:hover i {
+          color: #f7d31b; }
+
+/*# sourceMappingURL=main.css.map */
