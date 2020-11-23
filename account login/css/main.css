@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #3d393c; }
+
+.container {
+  margin-top: 20%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 10px rgba(136, 136, 136, 0.4); }
+  .container .login-data {
+    width: 330px;
+    height: 281px; }
+    .container .login-data h2 {
+      font-size: 20px;
+      margin-bottom: 25px; }
+    .container .login-data .inputBox {
+      width: 100%;
+      margin-bottom: 20px; }
+      .container .login-data .inputBox i {
+        position: absolute;
+        padding: 10px;
+        min-width: 40px;
+        margin-left: 290px;
+        color: rgba(128, 128, 128, 0.4); }
+      .container .login-data .inputBox input {
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+        border: 1px solid rgba(128, 128, 128, 0.4);
+        border-radius: 3px; }
+        .container .login-data .inputBox input::placeholder {
+          color: rgba(128, 128, 128, 0.4); }
+        .container .login-data .inputBox input:focus {
+          outline: none;
+          border-color: #79b42b; }
+    .container .login-data .button {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: #79b42b;
+      color: #fff;
+      padding: 5px;
+      margin: 5px 0 10px 0; }
+    .container .login-data .login-check {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px; }
+      .container .login-data .login-check .check label {
+        color: gray; }
+      .container .login-data .login-check .check input {
+        background-color: gray; }
+      .container .login-data .login-check span a {
+        color: gray;
+        text-decoration: none; }
+  .container .or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: gray; }
+  .container .login-account h6 {
+    color: #43a1db;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 15px; }
+  .container .login-account li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .container .login-account li i {
+      height: 40px;
+      color: #fff;
+      width: 40px;
+      padding: 12px; }
+    .container .login-account li a {
+      width: 200px;
+      height: 40px;
+      padding: 8px;
+      border: none;
+      color: white; }
+      .container .login-account li a:hover {
+        text-decoration: none; }
+    .container .login-account li:nth-child(1) {
+      background-color: #3b5998; }
+    .container .login-account li:nth-child(2) {
+      background-color: #45b0e3; }
+    .container .login-account li:nth-child(3) {
+      background-color: #de4c34; }
+
+/*# sourceMappingURL=main.css.map */
