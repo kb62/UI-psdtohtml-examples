@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+#main {
+  width: 100%;
+  height: auto; }
+  #main .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px; }
+    #main .top span a {
+      font-size: 13px;
+      color: gray; }
+      #main .top span a:hover {
+        text-decoration: none; }
+  #main .main {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%), url(https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative; }
+    #main .main h1 {
+      margin-top: 160px;
+      font-size: 32px;
+      margin-bottom: 35px; }
+    #main .main p {
+      font-size: 15px;
+      margin-bottom: 46px; }
+    #main .main a {
+      background-color: #fb6e52;
+      border: 1px solid white;
+      padding: 25px 50px;
+      border-radius: 5px;
+      color: white;
+      margin-bottom: 121px; }
+      #main .main a:hover {
+        text-decoration: none; }
+
+#content .container .cards {
+  display: flex;
+  justify-content: center; }
+  #content .container .cards .card1 {
+    padding-top: 55px;
+    margin-left: 50px; }
+    #content .container .cards .card1 .circle {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background-color: #fb6e52;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      #content .container .cards .card1 .circle i {
+        color: white;
+        font-size: 20px; }
+    #content .container .cards .card1 h5 {
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: bold; }
+    #content .container .cards .card1 p {
+      font-size: 13px;
+      color: gray;
+      margin-bottom: 55px; }
+#content .container .quote {
+  font-size: 20px;
+  color: #fb6e52;
+  text-align: center; }
+#content .container .images {
+  margin-top: 58px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: center; }
+  #content .container .images .image {
+    margin-right: 20px; }
+    #content .container .images .image:nth-child(1) {
+      margin-left: 100px; }
+    #content .container .images .image img {
+      width: 190px;
+      height: 150px; }
+    #content .container .images .image h5 {
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: bold; }
+    #content .container .images .image p {
+      font-size: 13px;
+      color: gray;
+      margin-bottom: 55px; }
+
+#blog {
+  background-color: #f9f9f9; }
+  #blog .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
+    #blog .container .title {
+      padding: 40px;
+      font-size: 20px; }
+    #blog .container .blogimg {
+      display: flex; }
+      #blog .container .blogimg .blogcards {
+        margin-right: 30px; }
+        #blog .container .blogimg .blogcards img {
+          width: 282px;
+          height: 282px;
+          margin-bottom: 30px; }
+        #blog .container .blogimg .blogcards h3 {
+          color: #fb6e52;
+          font-size: 15px;
+          margin-bottom: 25px; }
+        #blog .container .blogimg .blogcards p {
+          font-size: 13px;
+          color: #d5d6d7;
+          margin-bottom: 50px; }
+
+#footer {
+  display: flex;
+  background-color: #292c34;
+  height: 100px;
+  align-items: center; }
+  #footer .container {
+    display: flex;
+    justify-content: space-between; }
+    #footer .container .footer-logo {
+      display: flex;
+      align-items: center; }
+      #footer .container .footer-logo span p {
+        margin-top: 15px;
+        margin-left: 20px;
+        color: gray;
+        font-size: 13px; }
+    #footer .container .icons {
+      display: flex; }
+      #footer .container .icons ul {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        #footer .container .icons ul li {
+          list-style-type: none; }
+          #footer .container .icons ul li a {
+            color: #fff;
+            margin-right: 35px; }
+
+/*# sourceMappingURL=main.css.map */
