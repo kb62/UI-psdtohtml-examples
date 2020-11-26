@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ font-family: 'Cambria', sans-serif;
+ background-color: #0C161F;
+}
+header{
+    /* background-color:transparent;header daki arkaplan resmini alıyor */
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 80px;
+    line-height: 80px;/*Menu yazıları ortalıyoruz*/
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+header nav ul{
+    list-style: none;
+}
+header  nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.logo{
+    float: left;
+}
+header ul li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400; /*Regular*/
+    transition: all .3s ease-in;
+}
+header ul li a:hover , header ul li a:focus{
+    cursor: pointer;
+    color:#c61f27;
+    text-decoration: none;
+}
+#mainContent{
+    background: url('../img/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.mainArea{
+    padding-top:170px;
+}
+.mainArea h1{
+    color:	#062b65;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.mainArea h2{
+    color:	#222;
+    margin-bottom: 30px;
+}
+.mainArea p{
+    font-size: 14px;
+    color:#fff;
+    margin-bottom: 40px;
+}
+.mainArea button{
+    background-color: transparent ;
+    padding: 8px 24px;
+    border-radius: 20px;
+    color: #c61f27;
+    border: 1px solid #1D9CD7;
+    font-family: 'Cambria', sans-serif;
+}
+.mainArea button:hover, button:focus{
+    background-color: #FFC914;
+    color: #1D9CD7;
+    transition: all 0.1s ease-out;
+    outline: none !important;
+}
+#services {
+    /* background-color: #efefef; */
+    background: url('../img/servicebg.jpg');
+}
+.servicesTop h2{
+    color: darkgray;
+    margin-bottom: 24px;
+    padding-top: 60px;
+}
+.servicesTop p{
+    color: #efefef;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.furniture{
+    opacity: .5;
+    height: 80px;
+    width: 80px;
+}
+.servicesContent h2{
+    color: #222222;
+    font-size: 24px;
+    font-weight: 400;
+}
+#works{
+    width: 100%;
+    background-size: cover;
+    background: url('../img/bg2.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+#works h2{
+    color: darkgray ;
+    margin-bottom: 24px;
+}
+.worksTop p {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+
+#contact{
+    background: url('../img/contact.jpg');
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+}
+#contact h2{
+    color:darkgray;
+    margin-bottom: 32px;
+}
+.contactTop {
+    text-align: center
+}
+.contactTop p{
+    color:#fff;
+    font-size:14px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+/* .form{
+    width: 80%;
+    margin: 0 auto;
+} */
+input , textarea{
+    width: 100%;
+    background-color: #c61f27;
+    border: none;
+    margin-bottom: 10px;
+    padding:10px 0 10px 10px;
+
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+  }
+
+#submit{
+    color:#c61f27;
+    background-color: #fff;
+}
+.contactContent h2{
+    font-size: 24px;
+    color: #c61f27;
+    margin-top: -5px;/*form kutusu ile aynı hizada duröası için*/
+}
+.contactContent p{
+    color: white;
+    margin-bottom: 20px;
+}
+html {
+    scroll-behavior: smooth;
+  }
