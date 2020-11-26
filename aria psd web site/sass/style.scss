@@ -1,0 +1,172 @@
+$green: #14bf98;
+$blue:#153e52;
+h1 {
+    color: #484a46;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+    border: 0.125rem solid $green;
+    border-radius: 0.25rem;
+    background-color: $green;
+    color: #fff;
+    font: 700 0.75rem/0 "Montserrat", sans-serif;
+    transition: all 0.3s ease-in;
+}
+.wrapper{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../img/header-background.jpg') center center no-repeat;
+	background-size: cover;
+    
+    .menu{
+        width: 150px;
+    }
+    header{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.5);
+        position: fixed;
+    }
+    .menu-items li {
+       list-style: none; 
+    }
+    .menu-items a{
+        color: white;
+        font-weight: bold;
+        transition: all 0.3s ease-in;
+        &:hover{
+            color: $green;
+            
+         }
+    }
+     
+    .content{
+        color: white;    
+        padding-top: 200px;
+        padding-bottom: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h1{
+            color:white !important;
+            font-size: 60px;
+            font-weight: bold; 
+        }
+        p{
+             margin-bottom: 3.5rem;  
+             font: 400 1.125rem/1.625rem "Open Sans", sans-serif; 
+         }
+    }
+    
+}
+
+.intro{
+    .ust-div{
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        .intro-foto{
+            padding-left: 50px;
+            img{
+                height: auto;
+                border-radius: 0.25rem;
+            }
+        }
+        .intro-yazi{
+            h1{
+                font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+            }
+            p{
+                color: #787976;
+                font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+            }
+            .author{
+                color: #484a46;
+                font: 700 1rem/1.375rem "Montserrat", sans-serif;
+            }
+            .italic{
+                font-style: italic;
+            }
+        }
+    }
+    .alt-div{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 200px;
+        padding-top: 50px;
+      .alt-div-content p{
+        color: #787976;
+        font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+       }
+       .fa {
+        color: $green;
+        font-size: 60px;
+        padding-bottom: 25px;
+       }   
+    }
+}
+.services{
+    margin-bottom: 40px;
+    .baslik{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .alt-icerik-services{
+        display: flex;
+    img{
+        width: 300px;
+        height: 200px;
+    }
+    .card{
+        
+        width: 100%;
+         justify-content: center;
+         align-items: center;
+    }
+    }
+
+}
+
+.call{
+    height: 100%;
+    background-color: $blue;
+    display:flex;
+    color:#dfe5ec;
+    padding-top: 6.625rem;
+    padding-bottom: 5.625rem;
+    padding-left: 5.625rem;
+    padding-right:5.625rem;
+    .call-sol{
+    line-height: 200%;
+
+   } p , li{
+    font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+   }
+    li{
+        list-style-type: square;
+    }
+    .form-control-input, .form-control-select {
+        display: block;
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        border: 1px solid #dadada;
+        border-radius: 0.25rem;
+        background-color: #fff;
+        color: #787976;
+        font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+        transition: all 0.2s;
+      
+    }
+    input:focus{
+        background-color: $green;
+    }
+    input, button, select, optgroup, textarea {
+        margin: 0;
+        transition: all 0.3s ease-in;
+    }
+}

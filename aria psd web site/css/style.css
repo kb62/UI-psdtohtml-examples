@@ -1,0 +1,130 @@
+h1 {
+  color: #484a46; }
+
+.btn {
+  display: inline-block;
+  padding: 1.375rem 2.125rem 1.375rem 2.125rem;
+  border: 0.125rem solid #14bf98;
+  border-radius: 0.25rem;
+  background-color: #14bf98;
+  color: #fff;
+  font: 700 0.75rem/0 "Montserrat", sans-serif;
+  transition: all 0.3s ease-in; }
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../img/header-background.jpg") center center no-repeat;
+  background-size: cover; }
+  .wrapper .menu {
+    width: 150px; }
+  .wrapper header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed; }
+  .wrapper .menu-items li {
+    list-style: none; }
+  .wrapper .menu-items a {
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in; }
+    .wrapper .menu-items a:hover {
+      color: #14bf98; }
+  .wrapper .content {
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .wrapper .content h1 {
+      color: white !important;
+      font-size: 60px;
+      font-weight: bold; }
+    .wrapper .content p {
+      margin-bottom: 3.5rem;
+      font: 400 1.125rem/1.625rem "Open Sans", sans-serif; }
+
+.intro .ust-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px; }
+  .intro .ust-div .intro-foto {
+    padding-left: 50px; }
+    .intro .ust-div .intro-foto img {
+      height: auto;
+      border-radius: 0.25rem; }
+  .intro .ust-div .intro-yazi h1 {
+    font: 700 1.75rem/2.125rem "Montserrat", sans-serif; }
+  .intro .ust-div .intro-yazi p {
+    color: #787976;
+    font: 400 1rem/1.5625rem "Open Sans", sans-serif; }
+  .intro .ust-div .intro-yazi .author {
+    color: #484a46;
+    font: 700 1rem/1.375rem "Montserrat", sans-serif; }
+  .intro .ust-div .intro-yazi .italic {
+    font-style: italic; }
+.intro .alt-div {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 200px;
+  padding-top: 50px; }
+  .intro .alt-div .alt-div-content p {
+    color: #787976;
+    font: 400 1rem/1.5625rem "Open Sans", sans-serif; }
+  .intro .alt-div .fa {
+    color: #14bf98;
+    font-size: 60px;
+    padding-bottom: 25px; }
+
+.services {
+  margin-bottom: 40px; }
+  .services .baslik {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+  .services .alt-icerik-services {
+    display: flex; }
+    .services .alt-icerik-services img {
+      width: 300px;
+      height: 200px; }
+    .services .alt-icerik-services .card {
+      width: 100%;
+      justify-content: center;
+      align-items: center; }
+
+.call {
+  height: 100%;
+  background-color: #153e52;
+  display: flex;
+  color: #dfe5ec;
+  padding-top: 6.625rem;
+  padding-bottom: 5.625rem;
+  padding-left: 5.625rem;
+  padding-right: 5.625rem; }
+  .call .call-sol {
+    line-height: 200%; }
+  .call p, .call li {
+    font: 400 1rem/1.5625rem "Open Sans", sans-serif; }
+  .call li {
+    list-style-type: square; }
+  .call .form-control-input, .call .form-control-select {
+    display: block;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px solid #dadada;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color: #787976;
+    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+    transition: all 0.2s; }
+  .call input:focus {
+    background-color: #14bf98; }
+  .call input, .call button, .call select, .call optgroup, .call textarea {
+    margin: 0;
+    transition: all 0.3s ease-in; }
+
+/*# sourceMappingURL=style.css.map */
