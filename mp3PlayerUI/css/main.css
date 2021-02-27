@@ -1,0 +1,33 @@
+.container {
+  width: 30%; }
+  .container .player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    height: 250px; }
+    .container .player .player-art img {
+      width: 200px;
+      height: 200px; }
+    .container .player .player-data {
+      margin-left: 80px;
+      display: flex;
+      flex-direction: column; }
+      .container .player .player-data .player-title h5 {
+        color: white;
+        font-size: 32px; }
+      .container .player .player-data .song-artist h6 {
+        color: white;
+        font-size: 24px;
+        font-weight: 100;
+        text-transform: uppercase;
+        line-height: 2em; }
+      .container .player .player-data .controls {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between; }
+        .container .player .player-data .controls .fas {
+          color: white;
+          font-size: 14px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+.container {
+  margin-top: 50px;
+  width: 600px; }
+
+body {
+  color: white;
+  font-family: 'Oswald', sans-serif; }
+
+.player {
+  padding: 1em;
+  background: #333;
+  display: flex;
+  flex-flow: row wrap; }
+  .player__close {
+    color: white; }
+  .player__art {
+    margin: 15px;
+    width: 200px;
+    height: 200px; }
+    .player__art img {
+      width: 200px;
+      height: 200px; }
+  .player__song {
+    margin: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+    .player__song--title {
+      font-size: 32px;
+      line-height: 1em; }
+    .player__song--artist {
+      font-size: 24px;
+      font-weight: 100;
+      text-transform: uppercase;
+      line-height: 2em; }
+    .player__song--controls {
+      font-size: 36px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+
+/*# sourceMappingURL=main.css.map */
