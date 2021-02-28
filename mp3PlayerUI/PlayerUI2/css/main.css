@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, purple, white); }
+
+.player {
+  position: relative;
+  width: 300px;
+  background: white;
+  box-shadow: 0 50px 80px rgba(0, 0, 0, 0.25); }
+  .player .audioImg {
+    position: relative;
+    width: 100%;
+    height: 300px; }
+    .player .audioImg img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .player audio {
+    width: 100%;
+    outline: none; }
+
+/*# sourceMappingURL=main.css.map */
